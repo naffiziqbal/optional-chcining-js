@@ -8,4 +8,5 @@ const users = {
 
 }
 
-console.log(users.jobNaame?.baseSalary);
+console.log(users.jobNaame?.baseSalary);// Expect to return Undefined 
+console.log(users.jobName?.baseSalary); // Expect to return VAlue
